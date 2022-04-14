@@ -1,0 +1,66 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body {
+  height: 100%;
+  background-color: azure;
+  text-align: center;
+  font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  margin: 0 auto;;
+  max-width: 50%;
+}
+
+h1 {
+  color: rgb(104, 37, 37);
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  color: rgb(50, 150, 112);
+}
+
+span {
+  color: rgb(52, 15, 84);
+  background-color: rgb(74, 239, 220);
+  border: 2px solid rgb(242, 199, 138);
+  border-radius: 6px;
+  padding: 0.5vh 2vh;
+}
+
+span:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(0, 62, 84);
+  border: 2px solid rgb(4, 244, 92);
+}
+
+#result {
+  color: rgb(2, 57, 168);
+  padding-top: 3vh;
+}
